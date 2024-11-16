@@ -90,5 +90,5 @@ xhr.onload=function(){
     }
 }
 
-xhr.open("GET",'/results-summary-component-main/data.json',true);
-xhr.send()
+xhr.open("GET",'results-summary-component-main/data.json',true);
+xhr.send();
