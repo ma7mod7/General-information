@@ -1,0 +1,12 @@
+ <section class="left">
+            <p class="left__head">Your Result</p>
+            <div class="left__circle">
+                <p class="left__p--bold">76</p>
+                <p class="left__p--ligth">of 100</p>
+            </div>
+            <h3 class="left__h3">Great</h3>
+            <p class="left__p--wi">  You scored higher than 65% of the people who have taken these tests.</p>
+
+        </section>
+
+       
