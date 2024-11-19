@@ -54,17 +54,6 @@ main{
  
 
 }
-@media (max-width:425px){
-
-    main{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 100%;
-    }
-}
 
 .left{
     display: flex;
@@ -149,4 +138,24 @@ button:hover{
 }
 img{
     margin-right: 5px;
+}
+@media (max-width:425px){
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+       
+        border-radius: 0px;
+
+    }
+    .left{
+        height: 100%;
+        width:100% ;
+        border-radius: 0px 0px 16px 16px ;
+
+    }
 }
